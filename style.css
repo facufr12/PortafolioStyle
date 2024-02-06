@@ -16,6 +16,7 @@ a {
   color: #ccc;
   text-decoration: none;
   transition: 0.3s;
+  
 }
 
 a:hover {
@@ -27,6 +28,7 @@ h1.header {
   color: #e91e63;
   font-size: 2.5rem;
   font-weight: bold;
+  margin: 30px;
 }
 
 h2 {
@@ -52,7 +54,8 @@ canvas {
 .logo {
   font-family: "Monoton", cursive;
   color: #fff;
-  font-size: 10rem;
+  font-size: 45px;
+
 }
 
 .links-list ul li {
@@ -127,8 +130,21 @@ p {
 }
 
 
+.p-tecnologias{
+  font-size: 25px;
 
+}
 
+.li{
+  color: #e91e63;
+  
+  
+}
+
+.a-projectos{
+  font-size: 35px;
+
+}
 
 
 
