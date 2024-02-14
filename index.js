@@ -2,7 +2,7 @@ particlesJS("background", {
 
     particles: {
         number: {
-            value: 15, // Number of Particles (count)
+            value: 100, // Number of Particles (count)
             density: {
                 enable: true,
                 value_area: 300, // Area where particles will be distributed
@@ -16,17 +16,17 @@ particlesJS("background", {
             type: "triangle", // Shape type
         },
         opacity: {
-            value: 0.8, // Base opacity of particles
+            value: 0.1, // Base opacity of particles
             random: true,
             anum: {
                 enable: true,
                 speed: 1,
-                opacity_min: 0.1,
+                opacity_min: 0.2,
                 sync: false,
             },
         },
         size: {
-            value: 5, // Base size of particles
+            value: 0.1, // Base size of particles
             random: true,
             anim: {
                 enable: true,
@@ -39,9 +39,9 @@ particlesJS("background", {
         // Connecting lines
         line_linked: {
             enable: true,
-            distance: 150, // Maximum distance between linked particles
+            distance: 120, // Maximum distance between linked particles
             color: "#ffffff",
-            opacity: 0.4,
+            opacity: 0.1,
             width: 1,
         },
 
