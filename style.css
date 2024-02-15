@@ -292,3 +292,18 @@ textarea {
     color: inherit; /* El texto es visible */
   }
 }
+
+
+
+
+.logofinal{
+  position: relative;
+width: 80px;
+right: 390px;
+bottom: 0px;
+}
+
+.footerlogo a {
+  pointer-events: none; /* Deshabilita los eventos del puntero */
+  cursor: default; /* Cambia el cursor a uno predeterminado */
+}
