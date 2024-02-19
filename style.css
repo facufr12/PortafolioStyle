@@ -327,7 +327,7 @@ bottom: 0px;
   opacity: 0;
   white-space: nowrap; /* Evita el salto de línea */
   overflow: hidden; /* Oculta el texto que sobresale */
-  animation: aparecer 5s ease-out 2s forwards; /* Nombre de la animación, duración, tipo de curva de la animación, retraso y retención de la última posición de la animación */
+  animation: aparecer 2s ease-out 1s forwards; /* Nombre de la animación, duración, tipo de curva de la animación, retraso y retención de la última posición de la animación */
 }
 
 @keyframes aparecer {
